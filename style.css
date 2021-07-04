@@ -1,0 +1,286 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    box-sizing:border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+/*font-family: 'Source Sans Pro', sans-serif;*/
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 1140px;
+    margin: 0 auto;
+}
+/*****header section CSS here******/
+.header{
+   padding: 10px 0; 
+}
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h-left{
+    display: flex;
+    align-items: center;
+}
+.h-left ul li{
+    display: inline-block;
+    padding-left: 20px;   
+}
+.h-left ul li:first-child{
+        margin-left: 20px;
+}
+.h-left ul li a{
+    display: block;
+    color: #5D5F60;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+}
+.h-left ul li a:hover{
+    color: #FF6162;
+    transition: .2s;
+}
+.h-right botton, .footer-text botton{
+    padding: 15px 20px;
+    color: #ffffff;
+    background: #FF6162;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    border-radius:8px; 
+    transition: .2s;
+}
+.h-right botton:hover,.footer-text botton:hover{
+    background: #f51a1b;
+    color: #292640;
+    transition: .2s;
+}
+/*****banare section CSS here*****/
+.banare{
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+}
+.banare-items{
+    display: flex;
+}
+.b-left h1{
+    color: #292640;    
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.b-left p{
+    color: #aba4a5;
+    line-height: 32px;
+    font-size: 21px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 20px;
+}
+.b-left a i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color:#aba4a5; 
+    background: #ffffff;
+    border: 2px solid #aba4a5;
+    border-radius: 100%;
+    transition: .2s;
+
+}
+.b-left a i:hover{
+    background: #FF6162;
+    color: #ffffff;
+    border: 2px solid #FF6162;
+    transition: .2s;
+
+}
+/************************************
+      gallary section CSS here
+*************************************/
+.gallary{
+    padding: 20px 0;
+}
+.text{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.text h1{
+    font-weight: 700;
+}
+.text p{
+    color:#aba4a5; 
+    font-style: italic;
+    padding: 40px;
+    
+}
+.gallary-link{
+    display: flex;
+    justify-content: space-evenly;
+    background: #fdfdfd;
+    padding-top: 10px ;
+    
+}
+.items{
+    background: #e3dddd;
+    border-radius: 10px;
+}
+
+.items:hover{
+    box-shadow: 10px 10px 10px 10px #aba4a5;
+    transition: .3s;
+    cursor: pointer;
+}
+.items img{
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.items p{
+    color: #5D5F60;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px; 
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+}
+/************************************
+      gallary section CSS here
+*************************************/
+.line{
+    margin: 55px auto;
+    padding: 20px 0;
+    width: 2px;
+    height: 30px;
+    background: #dddadb;
+}
+/************************************
+      Feature section CSS here
+*************************************/
+.featue{
+    padding: 40px 0;
+}
+.feature-items{
+    margin: 0 auto;
+    text-align: center;
+    color: #292640;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.feature-items h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.feature-items p{
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.text-items{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around; 
+}
+.item{
+    background: #F5F5F5;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 10px 20px 0px #aba4a5; 
+    transition: .2s;
+}
+.item:hover{
+    background: #ffffff;
+    transition: .2s;
+}
+.item a i{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color:#FF6162; 
+    background: #ffffff;
+    border: 2px solid #F5F5F5;
+    border-radius: 100%;
+}
+.item h3{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.item p{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom:0px;
+}
+/************************************
+      Footer section CSS here
+*************************************/
+.footer{
+    margin-top: 60px;
+    padding: 40px 0;
+    width: 100%;
+    height: 40vh;
+    background:#292640;
+    display: flex;
+    align-items: center;
+}
+.footer-wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.footer-text{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;   
+}
+.footer-text h1{
+    color: #ffffff;
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+.footer-text a{
+    color: #808080;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.footer-text a i{
+    margin-top: 40px;
+    font-size: 20px;
+    color: #808080;
+}
+.footer-text a i:last-child{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    background:#808080; 
+    font-size: 10px;
+    font-weight: 100;
+    color: #292640;
+    margin-left: 95%;
+    margin-top:-10px;
+    transition: .2s;
+
+}
+.footer-text a i:last-child:hover{
+    background: #FF6162;
+    color: #ffffff;
+    border: 2px solid #FF6162;
+    transition: .2s;
+}
+
+
+
